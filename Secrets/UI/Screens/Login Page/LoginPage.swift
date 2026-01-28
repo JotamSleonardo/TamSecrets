@@ -77,6 +77,8 @@ struct LoginPage: View {
                 self.isCreatingAccount = !self.isCreatingAccount
                 self.clear()
             }
+            .fontWeight(.heavy)
+            .font(.caption)
 
             Spacer()
         }
